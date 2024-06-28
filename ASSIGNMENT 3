@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" >
+<div class="form-wrapper">
+  <h2 ALIGN="CENTER">Sign In</h2>
+ 
+    <p  ALIGN="CENTER">USER NAME:
+        <input type="text" name="USER NAME" size="13" maxlength="15"</p>
+    <P  ALIGN="CENTER">PASSWORD:
+        <input type="text" name="USER NAME" size="13" maxlength="15" </P>
+    <p  ALIGN="CENTER">
+        <INPUT TYPE="SUBMIT" VALUE="LOGIN"type="submit"
+    </p>
+    <button type="submit">Sign up</button>
+    <div class="form-help">
+      <div  ALIGN="CENTER" class="remember-me">
+        <input type="checkbox" id="remember-me">
+        <label for="remember-me">Remember me</label>
+      </div>
+      <a href="#">Need help?</a>
+    </div>
+  </form>
+  <p>New to Netflix? <a href="#">Sign up now</a></p>
+  <small>
+    This page is protected by Google reCAPTCHA to ensure you're not a bot.
+    <a href="#"><IMG SRC="HTTPS://WWW.PICSUM.PHOTOS/200/100" ALT="PICSUM"></a>
+  </small>
+</div>
+  
+</body>
+</html>
+
+<title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+<header>
+  <nav class="navbar">
+    <div class="navbar__brand">
+      <img decoding="async" src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="logo" class="brand__logo" />
+    </div>
+
+    <div class="navbar_nav_items">
+      <div class="nav__item">
+        <div class="dropdown__container">
+          <i class="fas fa-globe"></i>
+
+            English
+            हिन्दी
+
+        </div>
+      </div>
+
+      <div class="nav__item">
+        <button class="signin__button">Sign in</button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero_bgimage_container">
+      <img decoding="async" src="https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg" alt="BG hero image" class="hero_bg_image" />
+    </div>
+    <div class="hero_bg_overlay"></div>
+
+    <div class="hero__card">
+      <h1 class="hero__title">
+        Unlimited Movies TV,<br />
+        Shows and More.
+      </h1>
+      <p class="hero__subtitle">Watch anywhere and cancel anytime.</p>
+      <p class="hero__description">
+        Ready to watch? Enter your email to create or restart your
+        membership .
+      </p>
+
+      <div class="email_form_container">
+        <div class="form__container">
+
+          <label class="email__label">Email Address</label>
+        </div>
+        <button class="primary__button">
+          Get Started <i class="fal fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="features__container">
+    <!-- Feature 1 -->
+    <div class="feature">
+      <div class="feature__details">
+        <h3 class="feature__title">Enjoy on your TV.</h3>
+        <h5 class="feature_sub_title">
+          Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+          Blu-ray players and more.
+        </h5>
+      </div>
+      <div class="feature_image_container">
+        <img decoding="async" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="Feature image" class="feature__image" />
+        <div class="feature_backgroudvideo_container">
+          <video autoplay="" loop="" muted="" class="feature_backgroud_video">
+
+          </video>
+        </div>
+      </div>
+    </div>
+    <!-- Feature 2 -->
+    <div class="feature">
+      <div class="feature__details">
+        <h3 class="feature__title">
+          Download your shows to watch offline.
+        </h3>
+        <h5 class="feature_sub_title">
+          Save your favourites easily and always have something to watch.
+        </h5>
+      </div>
+      <div class="feature_image_container">
+        <img decoding="async" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-08…
