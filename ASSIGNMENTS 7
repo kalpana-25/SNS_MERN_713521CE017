@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        .total-box{
+            display: grid;
+            border: 1px solid red;
+            height: 300px;
+            grid-template-columns: 4fr 4fr 4fr 4fr;
+            gap: 9px;
+        }
+        .total-box div{
+            display: grid;
+            border:2px  solid rgb(161, 35, 35);
+            height:600;
+            grid-template-columns:5fr 5fr 5fr;
+        }  
+        .cbody>button{
+            display: grid;
+            grid-template-column:repeat(4,1fr);
+            gap:3px;
+            margin-top: 20px;
+        }
+        c.body>button{
+            height:60px;
+            width: 60px;
+            border-radius;50px;
+            border: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <input type="text" > 
+    <div class="total-box">
+        <div class="t"> Ac</div>
+        <BUTTON style="background-color: yellow;">+/-</BUTTON>
+        <BUTTON style="background-color: yellow;">%</BUTTON>
+        <BUTTON style="background-color: yellow;">/</BUTTON>
+        <BUTTON>7</BUTTON>
+        <BUTTON>8</BUTTON>
+        <BUTTON>9</BUTTON>
+        <BUTTON style="background-color: yellow;">+</BUTTON>
+        <BUTTON>4</BUTTON>
+        <BUTTON>5</BUTTON>
+        <BUTTON>6</BUTTON>
+        <BUTTON style="background-color: yellow;">=</BUTTON>
+        <BUTTON>1</BUTTON>
+        <BUTTON>2</BUTTON>
+        <BUTTON>3</BUTTON>
+        <BUTTON style="background-color: yellow;">*</BUTTON>
+        <BUTTON>0</BUTTON>
+        <BUTTON>.</BUTTON>
+        <BUTTON>=</BUTTON>
+        <BUTTON style="background-color: yellow;">*</BUTTON>    
+    </div>
+</body>
+
+
+
+    
