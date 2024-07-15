@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+    
+    
+    <style>
+        
+        body {
+            background-color: #998181;
+        } 
+        #keybord1{
+            width: 100%;
+            height: 100%;
+
+        }
+        textarea {
+            margin-bottom: 7px;
+            border: 1px solid blue
+        }
+        #div1 {
+            width: 100%;
+
+        }
+        #div2{
+            position: relative;
+            left: 355px;
+
+        }
+        #div4{
+            width:400px;
+
+        }
+        #pad:hover{
+            outline: none;
+        }
+        button{
+            height: 30px;
+            width: 31px;
+            font-size: 15px;
+            border-radius: 8px;
+            border: 1px solid black;
+            margin-bottom: 6px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+        }
+        button:hover{
+            color: blue;
+            outline: none;
+            transition-duration: 100ms;
+            border-color: #737373;
+            background-color: #c7c7c7;
+        }
+        .button1:hover{
+            color: #009dff;
+            outline: none;
+            border: 1px solid #737373;
+        }
+
+        #space1{
+            width: 190px;
+
+        }
+        .button2{
+            background-color: #009dff;
+            color: white;
+        }
+        .button2:hover{
+            background-color: #009dff;
+            color: white;
+        }
+
+    </style>
+    <script>
+        function satu(){
+            document.getElementById("pad").value +="1";
+        }
+        functiondua(){
+            document.getElementById("pad").value +="2";
+        }
+        function tiga(){
+            document.getElementById("pad").value +="3";
+        }
+        function empat(){
+            document.getElementById("pad").value +="4";
+
+        }
+        function lima(){
+            document.getElementById("pad").value +="5";
+        }
+        function enam(){
+            document.getElementById("pad").value +="6";
+        }
+        function tujuh(){
+            document.getElementById("pad").value +="7";
+        }
+        function delapan(){
+            document.getElementById("pad").value +="8";
+        }
+        function sembilan(){
+            document.getElementById("pad").value +="9";
+        }
+        function nol(){
+            document.getElementById("pad").value +="0";
+        }
+        function q(){
+            document.getElementById("pad").value +="q";
+        }
+        function w(){
+            document.getElementById("pad").value +="w";
+        }
+        function e(){
+            document.getElementById("pad").value +="e";
+        }
+        function t(){
+            document.getElementById("pad").value +="t";
+        }
+        function y(){
+            document.getElementById("pad").value +="y"
+        }
+        function u(){
+            document.getElementById("pad").value +="u"
+        }
+        function i(){
+            document.getElementById("pad").value +="i"
+        }
+        function o(){
+            document.getElementById("pad").value +="o"
+        }
+        function p(){
+            document.getElementById("pad").value +="p"
+        }
+        function a(){
+            document.getElementById("pad").value +="a"
+        }
+        function s(){
+            document.getElementById("pad").value +="s"
+        }
+        function d(){
+            document.getElementById("pad").value +="d"
+        }
+        function f(){
+            document.getElementById("pad").value +="f"
+        }
+        function g(){
+            document.getElementById("pad").value +="g"
+        }
+        function h(){
+            document.getElementById("pad").value +="h"
+        }
+        function j(){
+            document.getElementById("pad").value +="j"
+        }
+        function k(){
+            document.getElementById("pad").value +="k"
+        }
+        function l(){
+            document.getElementById("pad").value +="l"
+        }
+        function z(){
+            document.getElementById("pad").value +="z"
+        }
+        function x(){
+            document.getElementById("pad").value +="x"
+        }
+        function c(){
+            document.getElementById("pad").value +="c"
+        }
+        function v(){
+            document.getElementById("pad").value +="v"
+        }
+        function b(){
+            document.getElementById("pad").value +="b"
+        }
+        function n(){
+            document.getElementById("pad").value +="n"
+        }
+        function m(){
+            document.getElementById("pad").value +="m"
+        }
+        
+
+        
+
+    </script>
+    <title> page  title </title></title>
+    </head>
+    <body>
+        <textarea id="pad" readonly/></textarea>
+        <div id="keyboard">
+            <div id="div1">
+                <button onclick="satu()">1</button>
+                <button onclick="satu()">2</button>
+                <button onclick="tiga()">3</button>
+                <button onclick="empat()">4</button>
+                <button onclick="lima()">5</button>
+                <button onclick="enam()">6</button>
+                <button onclick="tujuh()">7</button>
+                <button onclick="delapan()">8</button>
+                <button onclick="sembilan()">9</button>
+                <button onclick="nol()">0</button>
+            </div>
+            <div id="div1">
+                <button onclick="q()">q</button>
+                <button onclick="w()">w</button>
+                <button onclick="e()">e</button>
+                <button onclick="r()">r</button>
+                <button onclick="t()">t</button>
+                <button onclick="y()">y</button>
+                <button onclick="u()">u</button>
+
+                <button onclick="i()">i</button>
+                <button onclick="O()">O</button>
+                <button onclick="P()">P</button>
+                <div id="div2"></div>
+                <button onclick="A()">A</button>
+                <button onclick="S()">S</button>
+                <button onclick="D()">D</button>
+                <button onclick="F()">F</button>
+                <button onclick="G()">G</button>
+                <button onclick="H()">H</button>
+                <button onclick="K()">J</button>
+                <button onclick="K()">K</button>
+                <button onclick="L()">L</button>
+                <DIV ID="DIV3"></DIV>
+                <button onclick="Z()">Z</button>
+                <button onclick="X()">X</button>
+                <button onclick="C()">C</button>
+                <button onclick="V()">V</button>
+                <button onclick="B()">B</button>
+                <button onclick="N()">N</button>
+                <button onclick="M()">M</button>
+                <BUTTON CLASS="button1">DEL</BUTTON>
+
+        </div>
+        <DIV>
+            <button ONCLICK="TAMpil()"
+            class="button1">alt</button>
+            <button onclick="at()">@</button>
+            <button onclick="space()" id="space1">space</button>
+            <button onclick="titik()">.</button>
+            
+            
+            
+                
+                
+
+            </div>
+            
+            
+            
+        </DIV>
+        
+        </div>
+    </body>
+</html>
+</html>
